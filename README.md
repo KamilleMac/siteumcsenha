@@ -16,10 +16,7 @@ Trabalho da faculdade, feito como atividade de **horas de extensão**. O objetiv
 ## Estudantes
 
 - Kamille Machado
-- Felipe Barbosa da Silva
-- Renato da Silva Santana
-- Bruno Otávio Carvalho Leite
-- Vinicius de Souza da Silva
+  
 
 ## O que tem no site
 
