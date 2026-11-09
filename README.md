@@ -22,8 +22,10 @@ Trabalho da faculdade, feito como atividade de **horas de extensão**. O objetiv
 
 - Por que senha fraca é perigosa e como a invasão acontece, em 3 passos
 - Senhas para evitar
+- "Entenda cada palavra": o que é senha forte, frase-senha, verificação em duas etapas, gerenciador de senhas, vazamento de dados e phishing
 - Números oficiais de golpes digitais no Brasil
 - Como criar uma boa senha e passo a passo na tela
+- Passo a passo para trocar a senha e ativar a verificação em duas etapas no WhatsApp, Instagram, Facebook, Gmail e app do banco
 - Como combater e como ajudar outras pessoas
 - O que fazer se descobriram a sua senha
 - Panfleto (frente e verso) para imprimir
