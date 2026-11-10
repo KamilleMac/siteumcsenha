@@ -360,24 +360,6 @@ a:focus-visible { outline: 3px solid var(--cor); outline-offset: 3px; }
   font-size: 15px;
 }
 
-/* Botão "Criado com carinho por..." */
-.criador {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  min-height: 48px;
-  padding: 10px 22px;
-  border-radius: 999px;
-  background: var(--cor);
-  color: var(--escuro);
-  font-weight: 800;
-  text-decoration: none;
-  transition: transform 0.15s;
-}
-
-.criador span { transition: transform 0.15s; }
-.criador:active { transform: scale(0.97); }
-.criador:hover span { transform: translateX(4px); }
 
 /* ---------- PASSO A PASSO NA TELA (desenhos de celular) ---------- */
 .telas { background: var(--papel); }
@@ -505,3 +487,65 @@ a:focus-visible { outline: 3px solid var(--cor); outline-offset: 3px; }
 .caiu li span { display: block; font-weight: 500; font-size: 17px; line-height: 1.55; color: var(--cinza); }
 .caiu li span.onde { margin-top: 12px; padding: 10px 12px; border-radius: 10px; background: var(--cor-suave); color: var(--escuro); font-weight: 700; font-size: 16px; }
 @media (max-width: 1000px) { .caiu ol { grid-template-columns: 1fr; } }
+
+/* ---------- BLOCOS EXPLICADOS: o que é, passo a passo e cuidado ---------- */
+.opcoes { background: var(--branco); }
+.opcoes .resumo { background: var(--papel); }
+.opcao { display: grid; grid-template-columns: 1fr 1fr; gap: 24px 32px; margin-top: 24px; padding: 32px; border: 1px solid var(--linha); border-radius: 24px; background: var(--papel); }
+.opcao h3 { margin: 10px 0 10px; font-size: 30px; }
+.opcao p { color: var(--cinza); }
+.opcao .obs { margin-top: 12px; font-size: 16px; }
+.selo { display: inline-block; padding: 4px 12px; border-radius: 999px; background: var(--escuro); color: #fff; font-size: 13px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; }
+.opcao .como { padding: 22px 24px; border: 1px solid var(--linha); border-radius: 18px; background: var(--branco); }
+.opcao .como h4 { margin: 0 0 12px; color: var(--cor-forte); font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; }
+.opcao ol { margin: 0; padding-left: 24px; display: flex; flex-direction: column; gap: 10px; font-weight: 600; }
+.opcao ol li::marker { color: var(--cor-forte); font-weight: 800; }
+.opcao .golpe { grid-column: 1 / -1; padding: 16px 20px; border-radius: 14px; background: #FDE7E8; color: #7A1D20; font-weight: 600; }
+.opcao .golpe strong { color: #7A1D20; }
+.extras { margin-top: 40px; }
+.extras > h3 { margin-bottom: 16px; font-size: 26px; }
+.extras .grade { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+@media (max-width: 1000px) { .extras .grade { grid-template-columns: 1fr; } }
+@media (max-width: 800px) { .opcao { grid-template-columns: 1fr; padding: 22px; } .opcao h3 { font-size: 26px; } }
+
+/* Layout do site de Senha: abertura com o celular à esquerda, cartões com borda no topo, tons de papel */
+.hero .wrap > div:first-child { order: 2; }
+.hero .celular { order: 1; }
+.fato, .passo, .sinal, .termo { border-left: 0; border-top: 6px solid var(--cor-forte); border-radius: 12px; }
+.pequeno { display: inline-block; padding: 4px 12px; border-radius: 6px; background: var(--cor-suave); color: var(--cor-forte); }
+.caderno { background: #FFF9E0; }
+.caderno-grade { display: grid; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); gap: 40px; align-items: center; }
+.desenho { margin: 0; text-align: center; }
+.desenho svg { width: 100%; max-width: 320px; height: auto; transform: rotate(-3deg); filter: drop-shadow(0 12px 18px rgba(43,27,82,.25)); }
+.desenho figcaption { margin-top: 10px; color: var(--cinza); font-size: 15px; }
+.sugestoes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 20px; }
+.sug { padding: 18px 20px; background: var(--branco); border: 1px solid var(--linha); border-top: 6px solid #2E9E5B; border-radius: 12px; }
+.sug.fraca { border-top-color: #D6403F; }
+.sug code { display: block; margin-bottom: 6px; font-size: 20px; font-weight: 800; word-break: break-word; }
+.sug span { color: var(--cinza); font-size: 16px; }
+@media (max-width: 800px) { .caderno-grade, .sugestoes { grid-template-columns: 1fr; } }
+
+/* Pequenos ajustes de acabamento */
+.fato, .passo, .sinal, .termo, .etapa { border-radius: 18px; }
+.hero { background: linear-gradient(135deg, var(--escuro) 0%, var(--escuro-2) 100%); }
+.botao { border-radius: 999px; }
+
+/* Celular da abertura: tela de login com medidor e bilhetinhos */
+.hero .celular { position: relative; }
+.hero .tela { display: flex; flex-direction: column; justify-content: center; gap: 10px; padding: 18px 16px; }
+.hero .tela .topinho { text-align: center; }
+.hero .cadeado { align-self: center; }
+.hero .campo { padding: 8px 12px; border-radius: 10px; background: rgba(255,255,255,.1); color: #fff; font-weight: 800; font-size: 17px; }
+.hero .campo small { display: block; color: #CDBBF2; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+.hero .forca { color: #E5DDF7; font-size: 13px; font-weight: 700; }
+.hero .forca b { color: #FF7A7A; }
+.hero .barra-forca { height: 8px; margin-top: 6px; border-radius: 4px; background: rgba(255,255,255,.15); overflow: hidden; }
+.hero .barra-forca i { display: block; width: 18%; height: 100%; background: #FF5A5A; border-radius: 4px; }
+.hero .bilhete { position: absolute; z-index: 2; padding: 10px 14px; border-radius: 6px; color: #1D1237; font-weight: 800; font-size: 15px; line-height: 1.25; box-shadow: 0 8px 18px rgba(0,0,0,.35); }
+.hero .b1 { left: -46px; top: 56px; background: #FFE97A; transform: rotate(-6deg); }
+.hero .b2 { right: -42px; bottom: 90px; background: #C8F2D6; transform: rotate(5deg); }
+@media (max-width: 800px) { .hero .b1 { left: -8px; } .hero .b2 { right: -8px; } }
+.hero .tela .aviso { position: static; margin-top: 4px; }
+.hero .tela { gap: 8px; }
+.hero .cadeado { width: 52px; height: 52px; }
+.hero .b2 { bottom: 40px; right: -52px; }

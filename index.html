@@ -23,7 +23,7 @@
 <header class="topo">
   <div class="wrap">
     <span>Universidade de Mogi das Cruzes</span>
-    <span>Projeto informativo</span>
+    <span>Projeto extensionista</span>
   </div>
 </header>
 
@@ -32,56 +32,51 @@
     <div>
       <span class="etiqueta">SEGURANÇA DIGITAL</span>
       <h1>Senha <em>fraca</em> abre a porta para o golpista.</h1>
-      <p class="lead">Senhas como 123456 ou a data de nascimento são fáceis de descobrir. Veja como criar uma senha forte.</p>
+      <p class="lead">Senha fácil, como 123456 ou a sua data de nascimento, é a primeira que o golpista tenta. Aqui você aprende, com palavras simples, a criar uma senha forte, a usar uma senha diferente em cada conta e a guardar todas em um caderno.</p>
       <div class="botoes">
-        <a class="botao" href="#protege">Como criar uma boa senha</a>
-        <a class="botao simples" href="#como">Por que é perigoso</a>
+        <a class="botao" href="#protege">Como criar uma senha forte</a>
+        <a class="botao simples" href="#guarde">Anote em um caderno</a>
       </div>
     </div>
 
-    <!-- Celular desenhado: cadeado aberto e senha 123456 -->
+    <!-- Celular desenhado: tela de login com senha fraca, medidor e bilhetinhos -->
     <div class="celular" aria-hidden="true">
       <div class="tela">
         <div class="topinho">Entrar na conta</div>
-        <svg viewBox="0 0 250 300" width="100%">
-          <rect x="30" y="40" width="190" height="230" rx="18" fill="#2B1B52"/>
-          <!-- argola do cadeado, aberta -->
-          <path d="M88 138 V104 C88 66 160 66 160 104 V118" fill="none" stroke="#1D1237" stroke-width="18" stroke-linecap="round"/>
-          <path d="M88 138 V104 C88 66 160 66 160 104 V118" fill="none" stroke="#D9DCE3" stroke-width="9" stroke-linecap="round"/>
-          <!-- corpo do cadeado -->
-          <rect x="66" y="136" width="118" height="96" rx="16" fill="#F2B134"/>
-          <circle cx="125" cy="170" r="9" fill="#1D1237"/>
-          <rect x="121" y="172" width="8" height="20" rx="3" fill="#1D1237"/>
-          <!-- papelzinho com a senha -->
-          <g transform="rotate(-6 125 212)">
-            <rect x="82" y="198" width="86" height="30" rx="3" fill="#FFE97A"/>
-            <text x="125" y="219" text-anchor="middle" font-family="Figtree, sans-serif" font-size="19" font-weight="800" fill="#1D1237">123456</text>
-          </g>
+        <svg class="cadeado" viewBox="0 0 80 80" width="64" height="64">
+          <path d="M26 38 V28 C26 12 54 12 54 28 V34" fill="none" stroke="#D9DCE3" stroke-width="7" stroke-linecap="round"/>
+          <rect x="18" y="36" width="44" height="34" rx="8" fill="#F2B134"/>
+          <circle cx="40" cy="50" r="4" fill="#1D1237"/><rect x="38" y="52" width="4" height="9" rx="2" fill="#1D1237"/>
         </svg>
+        <div class="campo"><small>Usuário</small>maria.silva</div>
+        <div class="campo"><small>Senha</small>123456</div>
+        <div class="forca"><span>Força da senha: <b>Fraca</b></span><div class="barra-forca"><i></i></div></div>
         <div class="aviso alto">Senha fraca!</div>
       </div>
+      <div class="bilhete b1">Uma senha<br>para cada conta</div>
+      <div class="bilhete b2">Anote no<br>caderno ✎</div>
     </div>
   </div>
 </div>
 
 <section class="fatos">
   <div class="wrap">
-    <div class="fato">Os golpistas testam primeiro as senhas mais comuns.</div>
-    <div class="fato">Uma senha repetida pode abrir várias contas de uma vez.</div>
-    <div class="fato">Quanto maior a senha, mais difícil de descobrir.</div>
+    <div class="fato">O golpista tenta primeiro as senhas mais fáceis.</div>
+    <div class="fato">Cada conta precisa ter a sua própria senha.</div>
+    <div class="fato">Senha longa é mais difícil de descobrir. Anote em um caderno.</div>
   </div>
 </section>
 
 <section class="explica">
   <div class="wrap">
     <div class="titulo-secao">
-      <span class="pequeno">O que está acontecendo</span>
-      <h2>Senha fácil é convite para o golpe.</h2>
+      <span class="pequeno">O que é e por que importa</span>
+      <h2>A senha é a chave da sua vida digital.</h2>
     </div>
     <div class="texto">
-      <p>Golpistas usam programas que testam muitas senhas em poucos segundos, começando pelas mais comuns, como 123456, o nome ou a data de nascimento.</p>
-      <p>Se descobrem uma senha, tentam a mesma em outras contas: e-mail, banco, redes sociais e WhatsApp.</p>
-      <p>Pense na senha como a chave da porta de casa: se a chave é fácil de copiar, qualquer um abre a porta.</p>
+      <p>Senha é a palavra secreta que você digita para entrar no e-mail, no banco, no WhatsApp e nas redes sociais. Ela prova que é você mesmo. Quem descobre a sua senha entra no seu lugar.</p>
+      <p>Os golpistas usam programas de computador que testam milhares de senhas em poucos segundos. Eles começam pelas mais fáceis: 123456, o nome e a data de nascimento. Se acertam uma, tentam a mesma senha em todas as suas outras contas.</p>
+      <p>Pense na chave de casa. Se a chave é fácil de copiar, qualquer um abre a porta. E se a mesma chave abre a casa, o carro e o cofre, o estrago é muito maior.</p>
     </div>
   </div>
 </section>
@@ -89,8 +84,8 @@
 <section class="passos" id="como">
   <div class="wrap">
     <div class="titulo-secao">
-      <span class="pequeno">Como a invasão acontece</span>
-      <h2>Três passos, em poucos minutos.</h2>
+      <span class="pequeno">Como o golpe acontece</span>
+      <h2>Em três passos, o golpista entra.</h2>
     </div>
     <div class="grade">
       <div class="passo"><b>1</b><h3>Testam senhas comuns</h3><p>123456, nome, data de nascimento e palavras simples.</p></div>
@@ -100,11 +95,39 @@
   </div>
 </section>
 
+<section class="opcoes" id="phishing">
+  <div class="wrap">
+    <div class="titulo-secao">
+      <span class="pequeno">Outro jeito de roubar a senha</span>
+      <h2>O que é phishing?</h2>
+    </div>
+    <article class="opcao">
+      <div>
+        <span class="selo">Leia: "fíchin"</span>
+        <h3>É a "pescaria" de senhas</h3>
+        <p>Phishing é uma mensagem ou um site falso que parece de verdade, como de banco, loja, Correios ou do WhatsApp. O golpista joga a isca: um aviso de "conta bloqueada" ou "pacote parado", com um link. Se você clicar e digitar a sua senha ali, ela vai direto para ele.</p>
+        <p class="obs">O nome vem da palavra inglesa "fishing", que quer dizer pescar.</p>
+      </div>
+      <div class="como">
+        <h4>Como reconhecer</h4>
+        <ol>
+          <li>A mensagem tem pressa: "faça agora ou sua conta será bloqueada".</li>
+          <li>Vem com um link para você clicar e digitar a senha.</li>
+          <li>O endereço do site é estranho, com letras trocadas ou palavras a mais.</li>
+          <li>Tem erros de escrita ou promete prêmio e dinheiro fácil.</li>
+          <li>Na dúvida, não clique. Abra o aplicativo oficial ou ligue para o número que está atrás do cartão.</li>
+        </ol>
+      </div>
+      <p class="golpe"><strong>Se já digitou a senha:</strong> troque a senha dessa conta agora, em um aparelho de confiança. Ligue para o banco se for conta de banco. Se usava a mesma senha em outras contas, troque também.</p>
+    </article>
+  </div>
+</section>
+
 <section class="sinais">
   <div class="wrap">
     <div class="titulo-secao">
-      <span class="pequeno">Senhas para evitar</span>
-      <h2>Não use...</h2>
+      <span class="pequeno">Senhas fracas</span>
+      <h2>Estas senhas, não use.</h2>
     </div>
     <div class="grade">
       <div class="sinal">
@@ -127,27 +150,152 @@
   </div>
 </section>
 
-<section class="termos">
+<section class="protege" id="protege">
+  <div class="wrap">
+    <div>
+      <div class="titulo-secao">
+        <span class="pequeno">Como prevenir</span>
+        <h2>Uma frase longa vale mais que uma palavra.</h2>
+      </div>
+      <ul class="lista">
+        <li>Use uma frase longa<span>Junte 4 palavras e números, com pelo menos 12 letras. Exemplo: nuvem-azul-bolo-27.</span></li>
+        <li>Uma senha diferente para cada conta<span>WhatsApp, e-mail, banco, redes sociais: cada conta tem a sua senha, nunca repita. Assim, se descobrirem uma, as outras continuam protegidas.</span></li>
+        <li>Anote as senhas em um caderno<span>Sempre. Guarde o caderno em lugar seguro de casa. Veja como logo abaixo.</span></li>
+        <li>Não use dados pessoais<span>Nada de nome, data de nascimento ou 123456.</span></li>
+        <li>Dê duas travas a cada conta<span>A primeira é a senha. A segunda é um código que chega no seu celular (verificação em duas etapas). Procure em Configurações &gt; Conta ou Segurança.</span></li>
+        <li>Não conte a senha a ninguém<span>Nem para banco, "suporte" ou parente. Nunca envie senha por mensagem, e-mail ou ligação.</span></li>
+        <li>Desconfie de aviso de "conta bloqueada"<span>Se a mensagem traz um link e diz que sua conta será bloqueada, é phishing (veja explicação abaixo). Não clique.</span></li>
+      </ul>
+    </div>
+    <aside class="regra">
+      <small>Regra de ouro</small>
+      <p>Senha é como a chave de casa: não se empresta.</p>
+    </aside>
+  </div>
+</section>
+
+<section class="caderno" id="guarde">
   <div class="wrap">
     <div class="titulo-secao">
-      <span class="pequeno">O que é cada coisa</span>
-      <h2>Entenda cada palavra.</h2>
+      <span class="pequeno">Anote em um caderno</span>
+      <h2>Não confie só na memória.</h2>
     </div>
-    <div class="grade">
-      <div class="termo"><h3>Senha forte</h3><p>Longa, difícil de adivinhar e só sua. Não tem nome, data nem sequência.</p></div>
-      <div class="termo"><h3>Frase-senha</h3><p>Uma senha feita de 4 palavras ou mais e números, fácil de lembrar e difícil de descobrir.</p></div>
-      <div class="termo"><h3>Verificação em duas etapas</h3><p>Um código de segurança extra, além da senha. Sem ele, quem descobrir sua senha não entra.</p></div>
-      <div class="termo"><h3>Gerenciador de senhas</h3><p>Aplicativo que guarda todas as suas senhas protegidas por uma só senha mestra.</p></div>
-      <div class="termo"><h3>Vazamento de dados</h3><p>Quando uma empresa perde senhas e elas vão parar na internet. Por isso não se deve repetir senhas.</p></div>
-      <div class="termo"><h3>Phishing</h3><p>Mensagem ou site falso que imita banco ou loja para você digitar sua senha. Nunca digite por link recebido.</p></div>
+    <div class="caderno-grade">
+      <figure class="desenho" aria-label="Desenho de um caderno com as senhas anotadas">
+        <svg viewBox="0 0 320 400" role="img" aria-label="Caderno de senhas aberto, com lápis ao lado">
+          <rect x="30" y="20" width="250" height="350" rx="14" fill="#4B2A8C"/>
+          <rect x="44" y="20" width="236" height="350" rx="10" fill="#FFF7D6"/>
+          <g fill="#2B1B52"><circle cx="44" cy="62" r="6"/><circle cx="44" cy="112" r="6"/><circle cx="44" cy="162" r="6"/><circle cx="44" cy="212" r="6"/><circle cx="44" cy="262" r="6"/><circle cx="44" cy="312" r="6"/></g>
+          <text x="162" y="52" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-size="22" font-weight="800" fill="#6B33B8">Minhas senhas</text>
+          <g stroke="#E5D9A0" stroke-width="2"><path d="M64 84H260M64 134H260M64 184H260M64 234H260M64 284H260M64 334H260"/></g>
+          <g font-family="Figtree, sans-serif" font-size="15" font-weight="700" fill="#1C1431">
+            <text x="64" y="78">WhatsApp: PIN 482915</text>
+            <text x="64" y="104" font-weight="500" fill="#5E5775">(exemplo, não use esse)</text>
+            <text x="64" y="128">E-mail: sol-na-janela-33</text>
+            <text x="64" y="178">Banco: cafe-quente-81</text>
+            <text x="64" y="228">Facebook: bolo-de-fuba-07</text>
+            <text x="64" y="278">Instagram: rio-azul-calmo-52</text>
+          </g>
+          <g transform="rotate(32 290 300)"><rect x="278" y="210" width="16" height="150" rx="3" fill="#F2B134"/><path d="M278 360h16l-8 22z" fill="#F4D6A8"/><path d="M283 374h6l-3 8z" fill="#1C1431"/></g>
+        </svg>
+        <figcaption>Exemplo de caderno. As senhas escritas aqui são só de exemplo.</figcaption>
+      </figure>
+      <div class="caderno-texto">
+        <p class="resumo"><strong>Anotar é seguro, se o caderno ficar guardado.</strong>Ninguém lembra de tantas senhas. Por isso o caderno é melhor do que repetir a mesma senha em tudo ou criar uma senha fácil só para não esquecer.</p>
+        <ul class="lista">
+          <li>Use um caderno só para senhas<span>Escreva o nome do aplicativo, o seu usuário e a senha, com letra bem legível.</span></li>
+          <li>Guarde em lugar seguro de casa<span>Uma gaveta com chave é o ideal. Não leve na bolsa nem deixe à vista de visitas.</span></li>
+          <li>Não tire foto do caderno<span>Foto no celular pode ser roubada junto com o aparelho.</span></li>
+        </ul>
+      </div>
     </div>
+  </div>
+</section>
+
+<section class="opcoes">
+  <div class="wrap">
+    <div class="titulo-secao">
+      <span class="pequeno">Sugestões de senhas fortes</span>
+      <h2>Frases longas, fáceis de lembrar.</h2>
+    </div>
+    <p class="resumo"><strong>Como montar a sua:</strong>junte 3 ou 4 palavras que você conhece, coloque um traço entre elas e termine com 2 ou 3 números. Os exemplos abaixo são só um modelo. Crie as suas e anote no caderno.</p>
+    <div class="sugestoes">
+      <div class="sug"><code>cafe-quente-na-manha-58</code><span>Forte: 4 palavras e números.</span></div>
+      <div class="sug"><code>meu-gato-dorme-no-sofa-14</code><span>Forte: longa e fácil de lembrar.</span></div>
+      <div class="sug"><code>domingo-tem-bolo-de-fuba-3</code><span>Forte: parece uma frase do dia a dia.</span></div>
+      <div class="sug fraca"><code>maria1985</code><span>Fraca: nome e ano de nascimento.</span></div>
+    </div>
+    <p class="nota">Não copie estes exemplos. Muita gente pode ter lido a mesma sugestão. Troque as palavras por outras da sua vida, mas que não sejam nome nem data de aniversário.</p>
+  </div>
+</section>
+
+<section class="opcoes">
+  <div class="wrap">
+    <div class="titulo-secao">
+      <span class="pequeno">Guarde as suas senhas</span>
+      <h2>Três regras para não se perder.</h2>
+    </div>
+    <p class="resumo"><strong>Criar a senha é só metade do trabalho.</strong>A outra metade é guardá-la bem. Veja cada regra explicada, com o passo a passo.</p>
+    <article class="opcao">
+      <div>
+        <span class="selo">Regra 1</span>
+        <h3>Uma senha para cada aplicativo ou sistema</h3>
+        <p>Use uma senha diferente no WhatsApp, no e-mail, no banco, nas redes sociais e em cada site. Se você usar a mesma em todos, o golpista que descobrir uma entra em todos de uma vez. Com senhas diferentes, o estrago fica em um lugar só.</p>
+      </div>
+      <div class="como">
+        <h4>Passo a passo</h4>
+        <ol>
+          <li>Faça uma lista dos aplicativos e sites que você usa: e-mail, banco, WhatsApp, redes sociais e compras.</li>
+          <li>Crie uma frase-senha nova para cada um (4 palavras e números). Nada de repetir.</li>
+          <li>Comece pelos mais importantes: o e-mail e o banco.</li>
+          <li>Troque as senhas repetidas aos poucos, uma ou duas por dia, para não cansar.</li>
+        </ol>
+      </div>
+      <p class="golpe"><strong>Cuidado:</strong> o e-mail é a chave de todas as outras contas, porque é nele que chegam os links para recuperar senhas. Ele deve ter a senha mais forte e que não se repete em lugar nenhum.</p>
+    </article>
+    <article class="opcao">
+      <div>
+        <span class="selo">Regra 2</span>
+        <h3>Sempre anote as senhas em um caderno</h3>
+        <p>Ninguém consegue lembrar de tantas senhas diferentes, e não tem problema nenhum. Anote todas em um caderno só para isso e guarde em lugar seguro. Anotar é muito melhor do que repetir a mesma senha em tudo ou criar senhas fáceis só para conseguir lembrar.</p>
+      </div>
+      <div class="como">
+        <h4>Passo a passo</h4>
+        <ol>
+          <li>Separe um caderno pequeno, só para as senhas.</li>
+          <li>Para cada conta, escreva o nome do aplicativo, o seu usuário (ou e-mail) e a senha, com letra bem legível.</li>
+          <li>Confira as letras que se parecem: a letra O e o zero, a letra l e o número 1. Se precisar, faça uma observação ao lado.</li>
+          <li>Guarde o caderno em um lugar seguro da casa, como uma gaveta com chave. Não deixe na bolsa, na carteira, no carro nem à vista de visitas.</li>
+          <li>Quando trocar uma senha, risque a antiga e escreva a nova.</li>
+          <li>Combine com uma pessoa de confiança onde o caderno fica, para o caso de uma emergência.</li>
+        </ol>
+      </div>
+      <p class="golpe"><strong>Cuidado:</strong> não tire foto do caderno e não escreva &quot;senhas&quot; na capa. Nunca mostre o caderno a quem pediu por telefone ou mensagem.</p>
+    </article>
+    <article class="opcao">
+      <div>
+        <span class="selo">Regra 3</span>
+        <h3>Cuidado com a senha forte gerada pelo sistema</h3>
+        <p>Muitos celulares e sites oferecem uma senha pronta, parecida com k7#Pq!x2Vm. Ela é forte porque é aleatória, isto é, sem sentido nenhum. Mas é muito difícil de lembrar e de digitar. Alguns celulares guardam essa senha sozinhos, mas você não tem como ter certeza de que ela estará lá se trocar de aparelho ou perder o acesso. Se aceitar e não anotar, pode ficar sem conseguir entrar na própria conta.</p>
+      </div>
+      <div class="como">
+        <h4>Passo a passo</h4>
+        <ol>
+          <li>Prefira criar você mesmo uma frase-senha longa, que você consegue lembrar.</li>
+          <li>Se aceitar a senha sugerida, anote no caderno na hora, antes de fechar a tela, exatamente como aparece (letras maiúsculas, minúsculas, números e símbolos).</li>
+          <li>Confira se anotou certo: saia da conta e tente entrar uma vez com a senha do caderno.</li>
+          <li>Se usar um gerenciador de senhas, anote no caderno também a senha mestra dele.</li>
+        </ol>
+      </div>
+      <p class="golpe"><strong>Cuidado:</strong> senha sugerida e perdida pode trancar a conta. Para recuperar, você vai precisar do e-mail ou do telefone cadastrados, por isso mantenha os dois sempre atualizados.</p>
+    </article>
   </div>
 </section>
 
 <section class="termos">
   <div class="wrap">
     <div class="titulo-secao">
-      <span class="pequeno">Verificação em duas etapas, explicada fácil</span>
+      <span class="pequeno">Como prevenir: duas travas</span>
       <h2>Senha e código: duas chaves, em vez de uma.</h2>
     </div>
     <p class="resumo"><strong>Pense na porta da sua casa.</strong>A senha é a primeira chave. O código é a segunda. Se descobrirem a sua senha, sem a segunda chave eles não entram na sua conta.</p>
@@ -162,7 +310,7 @@
 <section class="passos">
   <div class="wrap">
     <div class="titulo-secao">
-      <span class="pequeno">Como funciona na prática</span>
+      <span class="pequeno">Como prevenir: na prática</span>
       <h2>Três passos, bem simples.</h2>
     </div>
     <div class="grade">
@@ -174,50 +322,10 @@
   </div>
 </section>
 
-<section class="dados">
-  <div class="wrap">
-    <div class="titulo-secao">
-      <span class="pequeno">Quantas pessoas caem?</span>
-      <h2>Não é só com os outros.</h2>
-    </div>
-    <div class="grade">
-      <div class="dado"><b>24%</b><h3>dos brasileiros foram vítimas de golpe digital</h3><p>Em 12 meses, mais de 40 milhões de pessoas com 16 anos ou mais. Pesquisa do DataSenado, 2024.</p></div>
-      <div class="dado"><b>17 milhões</b><h3>de vítimas de golpes financeiros</h3><p>Cerca de 1 em cada 10 brasileiros caiu em golpe por celular ou internet em um ano. Datafolha e Fórum Brasileiro de Segurança Pública, 2024.</p></div>
-      <div class="dado"><b>1 em 4</b><h3>recebeu uma tentativa de golpe</h3><p>Por aplicativo de mensagem ou ligação, em 12 meses. Datafolha e Fórum Brasileiro de Segurança Pública, 2024.</p></div>
-    </div>
-    <p class="nota">Os números são de golpes digitais em geral. Não encontramos uma pesquisa oficial só sobre senhas fracas.</p>
-  </div>
-</section>
-
-<section class="protege" id="protege">
-  <div class="wrap">
-    <div>
-      <div class="titulo-secao">
-        <span class="pequeno">Como criar uma boa senha</span>
-        <h2>Uma frase longa vale mais.</h2>
-      </div>
-      <ul class="lista">
-        <li>Use uma frase longa<span>Junte 4 palavras e números, com pelo menos 12 letras. Exemplo: nuvem-azul-bolo-27.</span></li>
-        <li>Uma senha para cada conta<span>Assim, se descobrirem uma, as outras continuam seguras.</span></li>
-        <li>Não use dados pessoais<span>Nada de nome, data de nascimento ou 123456.</span></li>
-        <li>Ative a verificação em duas etapas<span>É um código de segurança extra, além da senha. Se alguém descobrir sua senha, sem esse código não consegue entrar. Procure em Configurações &gt; Conta ou Segurança.</span></li>
-        <li>Não conte a senha a ninguém<span>Nem para banco, "suporte" ou parente.</span></li>
-              <li>Nunca envie senha por mensagem, e-mail ou ligação.</li>
-        <li>Desconfie de avisos como "sua conta será bloqueada" com um link.</li>
-        <li>Não anote senhas em lugares à vista, como bilhete na mesa ou bloco de notas do celular.</li>
-      </ul>
-    </div>
-    <aside class="regra">
-      <small>Regra de ouro</small>
-      <p>Senha é como a chave de casa: não se empresta.</p>
-    </aside>
-  </div>
-</section>
-
 <section class="telas" id="passo-a-passo">
   <div class="wrap">
     <div class="titulo-secao">
-      <span class="pequeno">Passo a passo na tela</span>
+      <span class="pequeno">Como prevenir: passo a passo na tela</span>
       <h2>Troque a senha em 4 passos.</h2>
     </div>
     <p class="resumo"><strong>Onde fica?</strong>Cada aplicativo é um pouco diferente, mas o caminho costuma ser parecido: Configurações, Conta ou Segurança, e depois Senha.</p>
@@ -265,6 +373,22 @@
   </div>
 </section>
 
+<section class="termos">
+  <div class="wrap">
+    <div class="titulo-secao">
+      <span class="pequeno">Como prevenir: aplicativo por aplicativo</span>
+      <h2>Troque a senha e ative a segurança.</h2>
+    </div>
+    <div class="grade">
+      <div class="termo"><h3>WhatsApp</h3><p>Não tem senha. Para a verificação em duas etapas: Configurações → Conta → Verificação em duas etapas → Ativar e crie um PIN de 6 números.</p></div>
+      <div class="termo"><h3>Instagram e Facebook</h3><p>Configurações → Central de Contas → Senha e segurança. Ali você troca a senha e ativa a "autenticação de dois fatores", que é a verificação em duas etapas.</p></div>
+      <div class="termo"><h3>Gmail (conta Google)</h3><p>Gerenciar sua Conta Google → Segurança. Escolha Senha para trocar e Verificação em duas etapas para ativar.</p></div>
+      <div class="termo"><h3>Aplicativo do banco</h3><p>Configurações ou Segurança → Alterar senha. Se suspeitar de golpe, ligue para o banco pelo número do cartão.</p></div>
+    </div>
+    <p class="resumo" style="margin-top: 24px"><strong>Não achou o menu?</strong>Os nomes mudam um pouco de aplicativo para aplicativo e com as atualizações. Procure por Configurações, Conta ou Segurança, ou peça ajuda a alguém da família.</p>
+  </div>
+</section>
+
 <section class="sinais combate">
   <div class="wrap">
     <div class="titulo-secao">
@@ -282,29 +406,13 @@
       </div>
       <div class="sinal">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
-        <div><h3>Use um gerenciador de senhas</h3><p>Ele guarda todas as senhas, e você lembra de uma só.</p></div>
+        <div><h3>Guarde as senhas com cuidado</h3><p>Em um caderno guardado em lugar seguro ou em um gerenciador de senhas.</p></div>
       </div>
       <div class="sinal">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>
         <div><h3>Mantenha o celular atualizado</h3><p>As atualizações corrigem falhas de segurança.</p></div>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="termos">
-  <div class="wrap">
-    <div class="titulo-secao">
-      <span class="pequeno">Passo a passo nos aplicativos</span>
-      <h2>Troque a senha e ative a segurança.</h2>
-    </div>
-    <div class="grade">
-      <div class="termo"><h3>WhatsApp</h3><p>Não tem senha. Para a verificação em duas etapas: Configurações → Conta → Verificação em duas etapas → Ativar e crie um PIN de 6 números.</p></div>
-      <div class="termo"><h3>Instagram e Facebook</h3><p>Configurações → Central de Contas → Senha e segurança. Ali você troca a senha e ativa a "autenticação de dois fatores", que é a verificação em duas etapas.</p></div>
-      <div class="termo"><h3>Gmail (conta Google)</h3><p>Gerenciar sua Conta Google → Segurança. Escolha Senha para trocar e Verificação em duas etapas para ativar.</p></div>
-      <div class="termo"><h3>Aplicativo do banco</h3><p>Configurações ou Segurança → Alterar senha. Se suspeitar de golpe, ligue para o banco pelo número do cartão.</p></div>
-    </div>
-    <p class="resumo" style="margin-top: 24px"><strong>Não achou o menu?</strong>Os nomes mudam um pouco de aplicativo para aplicativo e com as atualizações. Procure por Configurações, Conta ou Segurança, ou peça ajuda a alguém da família.</p>
   </div>
 </section>
 
@@ -342,6 +450,42 @@
   </div>
 </section>
 
+<section class="dados">
+  <div class="wrap">
+    <div class="titulo-secao">
+      <span class="pequeno">Estatísticas</span>
+      <h2>Não é só com os outros.</h2>
+    </div>
+    <div class="grade">
+      <div class="dado"><b>24%</b><h3>dos brasileiros foram vítimas de golpe digital</h3><p>Em 12 meses, mais de 40 milhões de pessoas com 16 anos ou mais. Pesquisa do DataSenado, 2024.</p></div>
+      <div class="dado"><b>17 milhões</b><h3>de vítimas de golpes financeiros</h3><p>Cerca de 1 em cada 10 brasileiros caiu em golpe por celular ou internet em um ano. Datafolha e Fórum Brasileiro de Segurança Pública, 2024.</p></div>
+      <div class="dado"><b>1 em 4</b><h3>recebeu uma tentativa de golpe</h3><p>Por aplicativo de mensagem ou ligação, em 12 meses. Datafolha e Fórum Brasileiro de Segurança Pública, 2024.</p></div>
+    </div>
+    <p class="nota">Os números são de golpes digitais em geral. Não encontramos uma pesquisa oficial só sobre senhas fracas.</p>
+  </div>
+</section>
+
+<section class="termos">
+  <div class="wrap">
+    <div class="titulo-secao">
+      <span class="pequeno">Termos usados</span>
+      <h2>Entenda cada palavra.</h2>
+    </div>
+    <div class="grade">
+      <div class="termo"><h3>Senha forte</h3><p>Longa, difícil de adivinhar e só sua. Não tem nome, data nem sequência.</p></div>
+      <div class="termo"><h3>Frase-senha</h3><p>Uma senha feita de 4 palavras ou mais e números, fácil de lembrar e difícil de descobrir.</p></div>
+      <div class="termo"><h3>Verificação em duas etapas</h3><p>Um código de segurança extra, além da senha. Sem ele, quem descobrir sua senha não entra.</p></div>
+      <div class="termo"><h3>Gerenciador de senhas</h3><p>Aplicativo que guarda todas as suas senhas, protegidas por uma só senha mestra. É uma opção ao caderno, para quem prefere o celular.</p></div>
+      <div class="termo"><h3>Vazamento de dados</h3><p>Quando uma empresa perde senhas e elas vão parar na internet. Por isso não se deve repetir senhas.</p></div>
+      <div class="termo"><h3>Phishing (leia "fíchin")</h3><p>Mensagem ou site falso, parecido com o de um banco ou de uma loja, feito para você digitar a sua senha. É uma "pescaria": o link é a isca. Nunca digite senha em link que recebeu.</p></div>
+      <div class="termo"><h3>Login</h3><p>O conjunto que você digita para entrar: o usuário (nome ou e-mail) e a senha.</p></div>
+      <div class="termo"><h3>Senha aleatória</h3><p>Senha sem sentido, com letras, números e símbolos misturados, criada pelo computador. É forte, mas difícil de lembrar. Anote no caderno.</p></div>
+      <div class="termo"><h3>Senha mestra</h3><p>A única senha que abre o gerenciador de senhas. Se esquecer, perde o acesso a todas as outras. Anote no caderno.</p></div>
+      <div class="termo"><h3>Sistema</h3><p>Qualquer aplicativo ou site em que você tem conta, como e-mail, banco, redes sociais e lojas.</p></div>
+    </div>
+  </div>
+</section>
+
 <section class="panfleto">
   <div class="wrap">
     <div class="titulo-secao">
@@ -363,20 +507,19 @@
 
 <footer class="sobre">
   <div class="wrap">
-    <h2>Sobre o projeto</h2>
+    <h2>Sobre o projeto extensionista</h2>
     <dl>
       <div><dt>Universidade</dt><dd>Universidade de Mogi das Cruzes</dd></div>
       <div><dt>Curso</dt><dd>Análise e Desenvolvimento de Sistemas</dd></div>
-      <div><dt>Estudantes</dt><dd>Kamille Machado<br>Felipe Barbosa da Silva<br>Renato da Silva Santana<br>Bruno Otávio Carvalho Leite<br>Vinicius de Souza da Silva</dd></div>
-      <div><dt>Professor responsável</dt><dd>Bruno Messias Aguiar</dd></div>
+      <div><dt>Estudantes</dt><dd>Kamille Machado<br>Vinicius de Souza da Silva<br>Bruno Otávio Carvalho Leite</dd></div>
+      <div><dt>Professores responsáveis</dt><dd>Bruno Messias Aguiar<br>Leandro Miranda de Almeida</dd></div>
     </dl>
     <div class="fim">
-      <p>Projeto informativo com foco em tecnologia e segurança.</p>
-      <!-- Botão que leva para o meu site -->
-      <a class="criador" href="https://traumas.cc" target="_blank" rel="noopener">Criado com carinho &lt;3 <span>&rarr;</span></a>
+      <p>Projeto extensionista informativo, com foco em tecnologia e segurança.</p>
     </div>
   </div>
 </footer>
+
 
 <script src="script.js"></script>
 </body>

@@ -11,12 +11,13 @@ Trabalho da faculdade, feito como atividade de **horas de extensão**. O objetiv
 - **Universidade:** Universidade de Mogi das Cruzes (UMC)
 - **Curso:** Análise e Desenvolvimento de Sistemas
 - **Turma:** Noturno, Turma 4 B, 2026
-- **Professor responsável:** Bruno Messias Aguiar
+- **Professores responsáveis:** Bruno Messias Aguiar e Leandro Miranda de Almeida
 
 ## Estudantes
 
 - Kamille Machado
-  
+- Vinicius de Souza da Silva
+- Bruno Otávio Carvalho Leite
 
 ## O que tem no site
 
